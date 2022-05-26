@@ -1,0 +1,140 @@
+.container {
+  padding: 2rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1530px) {
+  .main {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  padding-right: 20px;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border-radius: 0.25rem;
+  max-width: 20rem;
+  min-height: 320px;
+  transition-duration: 200ms;
+}
+@media (max-width: 768px) {
+  .card {
+  }
+
+  .card div {
+    font-size: 16px !important;
+    padding: 0 !important;
+  }
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  transform: scale(1.1);
+
+}
+
+.card img {
+  width: 100%;
+}
+
+.card div {
+  padding: 4px 6px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.header {
+  display: flex;
+}
+
+.loading {
+  padding: 15px;
+  border: 2px solid cornflowerblue;
+  color: cornflowerblue;
+  border-radius: 10px;
+  background: transparent;
+  text-transform: uppercase;
+}
+
+.loading:hover {
+  background: cornflowerblue;
+  color: black;
+  transition-duration: 200ms;
+}
