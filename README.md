@@ -1,4 +1,4 @@
-# Interview-Frontend
+# Interview React Frontend
 Hello and thanks for taking the time to complete our interview developer test!
 
 Feel free to do any code refactors you see fit, this is a Next.js project! 
